@@ -1,0 +1,74 @@
+.pet-shop-page { 
+    padding: 20px; 
+  } 
+   
+  h2 { 
+    margin-top: 30px; 
+    text-align: center; 
+    color: black; 
+  } 
+   
+  .filters-container { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+  } 
+   
+  .pet-shop-container { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+  } 
+   
+  .pet-shop-item { 
+    background-color: #f8f8f8; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    position: relative; 
+  } 
+   
+  .pet-image { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+  } 
+   
+  .quantity-container { 
+    margin: 10px 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  } 
+   
+  .quantity-container button { 
+    background-color: #f0a47f; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  } 
+   
+  .quantity-container button:hover { 
+    background-color: #b1785c; 
+  } 
+   
+  .quantity-container span { 
+    margin: 0 10px; 
+    font-size: 18px; 
+  } 
+   
+  .order-button { 
+    background-color: #f0a47f; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  } 
+   
+  .order-button:hover { 
+    background-color: #b1785c; 
+  }
